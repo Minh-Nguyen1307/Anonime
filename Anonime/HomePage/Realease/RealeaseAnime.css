@@ -12,16 +12,20 @@
     width: 170px;
     height: 290px;
     position: relative;
+    cursor: pointer;
+   
 }
 .imgAnime {
     width: 170px;
     height: 290px;
+    
 }
 .episode {
     width: 170px;
     height: 290px;
     position: absolute;
     background: linear-gradient( to bottom, rgba(29, 29, 29, 0) 20%, rgba(29, 29, 29, 0.8) 90%);
+    
 }
 .episode p {
     width: 170px;
@@ -32,4 +36,12 @@
     transform: translate(-50%, -50%);
   
    
+}
+.realeaseAnime a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.realeaseAnime h4:hover {
+    transform: scale(1.05);
 }

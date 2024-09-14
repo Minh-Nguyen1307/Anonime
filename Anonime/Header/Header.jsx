@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Header.css'
 export default function Header() {
   return ( 
     <div className="header">
-        <h1>Anonime</h1>
+        <Link to ='/'><h1>Anonime</h1></Link>
         <p>Home</p>
         <p>List anime</p>
         <form className="d-flex" role="search">

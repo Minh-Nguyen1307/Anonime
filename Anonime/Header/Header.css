@@ -13,6 +13,11 @@
 .header h1 {
     margin: 0;
     color: white;
+   
+    cursor: pointer;
+}
+.header a {
+    text-decoration: none;
 }
 #formAnime {
     background-color: #374151;
