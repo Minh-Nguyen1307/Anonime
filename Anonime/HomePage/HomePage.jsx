@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Header from '../Header/Header'
 import './HomePage.css'
 
@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className='homePage'>
         <Header />
         <Explore />
-        <Realease/>
+        <Realease />
     </div>
   )
 }

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import RealeaseHeader from './RealeaseHeader'
 import RealeaseAnimeList from './RealeaseAnimeList'
+import { useState } from 'react'
 
 const Realease = () => {
     const anime = [
@@ -41,10 +42,11 @@ const Realease = () => {
             nameAnime: "Ball",
         },
     ];
+    const [animes, setAnimes] = useState(anime);
   return (
     <div>
         <RealeaseHeader />
-        <RealeaseAnimeList />
+        <RealeaseAnimeList animes = {animes} />
     </div>
   )
 }
