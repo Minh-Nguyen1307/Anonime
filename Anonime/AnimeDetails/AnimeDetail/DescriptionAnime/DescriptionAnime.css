@@ -1,0 +1,18 @@
+
+.detailDescriptionAnime {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    grid-template-rows: auto;
+    margin-top: 20px;
+}
+.grid-className img {
+    width: 270px;
+}
+.sypnosis {
+    margin-top: 20px;
+}
+.sypnosis p {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 20px;
+}

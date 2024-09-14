@@ -1,0 +1,12 @@
+.animeDetail {
+    max-width: inherit;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 1.1fr;
+    margin-top: 50px;
+    
+}
+.col {
+    
+    border: 1px solid black;
+}
