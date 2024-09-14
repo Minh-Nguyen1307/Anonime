@@ -1,0 +1,11 @@
+.exploreHeader {
+    height: 100px;
+    margin-top: 50px;
+    
+}
+.exploreHeader p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #868686;
+    font-weight: 400;
+}

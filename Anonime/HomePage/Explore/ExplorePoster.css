@@ -1,0 +1,36 @@
+.explorePoster {
+    position: relative;
+    width: 1274px;
+    height: 400px;
+    background-size: cover;
+    z-index: 2;
+    
+    
+
+}
+.explorePoster img {
+    width: 1274px;
+    height: 400px;
+    
+    
+    
+}
+.text-overlay {
+   
+    width: 1274px;
+    height: 400px;
+    position: absolute;
+    top: 0%;
+    
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+}
+.contentPoster {
+    width: 532px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    word-break: break-word;
+}
+.contentPoster p {
+   font-weight: 200;
+}

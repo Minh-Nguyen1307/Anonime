@@ -1,0 +1,29 @@
+.realeaseAnime {
+    width: 170px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgRealeaseAnime {
+    width: 170px;
+    height: 290px;
+    
+}
+.imgAnime {
+    width: 170px;
+    height: 290px;
+}
+.episode {
+    width: 170px;
+    height: 290px;
+    position: absolute;
+    background: linear-gradient( to bottom, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+}
+.episode p {
+    
+  
+   
+}
