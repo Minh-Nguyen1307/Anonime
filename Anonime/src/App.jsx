@@ -6,7 +6,7 @@ import AnimeDetails from '../AnimeDetails/AnimeDetails';
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
   <Router>
     <Routes>
@@ -15,7 +15,7 @@ function App() {
             <HomePage />
           </>
 }/>
-      <Route path="/AnimeDetails" element={
+      <Route path="/AnimeDetails/:id" element={
           <>
             <AnimeDetails />
           </>

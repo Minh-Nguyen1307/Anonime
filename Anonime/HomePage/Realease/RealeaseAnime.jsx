@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import './RealeaseAnime.css'
 const RealeaseAnime = (props) => {
     
-    const {image, episode, nameAnime} = props;
+    const {image, episode, nameAnime, description, id} = props;
+   
+    
   return (
    <div className='realeaseAnime'>
         <div className='imgRealeaseAnime'>
@@ -12,7 +14,7 @@ const RealeaseAnime = (props) => {
         <div className='episode'>
             <p>Episode {episode}</p>
         </div>
-        <Link to='AnimeDetails'><h4>{nameAnime}</h4></Link>
+        <Link to={`AnimeDetails/${id}`} state={{image, episode, nameAnime, description}} ><h4>{nameAnime}</h4></Link>
     </div>
    
   )
