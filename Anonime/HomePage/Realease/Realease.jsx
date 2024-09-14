@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import RealeaseHeader from './RealeaseHeader'
 import RealeaseAnimeList from './RealeaseAnimeList'
 import { useState } from 'react'

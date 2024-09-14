@@ -4,7 +4,7 @@ import './RealeaseAnimeList.css'
 
 const RealeaseAnimeList = (props) => {
     const {animes = []} = props;
-    const listAnime = animes.map((anime) => (<RealeaseAnime key={anime.id} episode = {anime.episode} nameAnime={anime.nameAnime} /> ) ) 
+    const listAnime = animes.map((anime) => (<RealeaseAnime key={anime.id} image={anime.image} episode = {anime.episode} nameAnime={anime.nameAnime} /> ) ) 
   return (
     <div className='realeaseAnimeList'>
         {listAnime}
